@@ -26,7 +26,7 @@ cache:
 ribbon:
   eager-load:
     enabled: true
-    clients: pig-auth,pig-upms-service
+    clients: anfa-oauth2,anfa-system-service
   Httpclient:
     enable: false
   OkHttp:
